@@ -1,2 +1,3 @@
 class Checkout:
-    pass
+    def addItemPrice(self):
+        pass

@@ -11,7 +11,7 @@ def test_canCalculateTotal(checkout):
     checkout.addItemPrice("a", 1)
     checkout.addItem("a")
     assert checkout.calculateTotal() == 1
-    
+
 
 def test_getCorrectTotalWithMultipleItems(checkout):
     checkout.addItemPrice("a", 1)

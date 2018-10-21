@@ -1,2 +1,2 @@
-def test_AssertTrue():
-    assert True
+def test_CanInstantiateCheckout():
+    co = Checkout()

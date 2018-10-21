@@ -5,5 +5,5 @@ def test_CanAddItemPrice():
     co.addItemPrice("a", 1)
 
 def test_CanAddItem():
-    co = CHeckout()
+    co = Checkout()
     co.addItem("a")

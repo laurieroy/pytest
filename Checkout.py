@@ -52,3 +52,4 @@ class Checkout:
         remaining = count % discount.numberOfItems
         total += remaining * self.prices[item]
         return total
+

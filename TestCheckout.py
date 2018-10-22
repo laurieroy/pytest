@@ -35,4 +35,3 @@ def test_canApplyDiscountRule(checkout):
 def test_ExceptionWithBadItem(checkout):
     with pytest.raises(Exception):
         checkout.addItem("c")
-        

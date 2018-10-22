@@ -9,13 +9,9 @@ class Checkout:
         self.discounts = {}
         self.items = {}
 
-
-
-
     def addDiscount(self, item, numberOfItems, price):
         discount = self.Discount(numberOfItems, price)
         self.discounts[item] = discount
-
 
     def addItemPrice(self, item, price):
         self.prices[item] = price
